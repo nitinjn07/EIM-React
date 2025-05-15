@@ -47,7 +47,7 @@ const BecomeUnicorn = () => {
       });
   }, []);
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <div></div>;
   if (error) return <div>Error: {error.message}</div>;
 
   // Generate financial data for charts
@@ -129,8 +129,7 @@ const BecomeUnicorn = () => {
           {content.map((item, index) => (
             <li
               key={index}
-              className="custom-flex custom-items-center custom-space-x-2 custom-animate-fadeIn"
-            >
+              className="custom-flex custom-items-center custom-space-x-2 custom-animate-fadeIn">
               <div className="custom-h-2 custom-w-2 custom-rounded-full custom-bg-purple-400"></div>
               <span className="custom-text-gray-700">{item}</span>
             </li>
@@ -176,8 +175,7 @@ const BecomeUnicorn = () => {
                   selectedMilestone === milestone
                     ? "custom-tabs-trigger-active"
                     : ""
-                }`}
-              >
+                }`}>
                 Milestone {milestone}
               </button>
             ))}
@@ -201,8 +199,7 @@ const BecomeUnicorn = () => {
                       selectedKey === key
                         ? "custom-milestone-button-active"
                         : "custom-hover-bg-purple-50"
-                    }`}
-                  >
+                    }`}>
                     <div className="custom-flex custom-items-center custom-space-x-2">
                       {getIcon(key)}
                       <span className="custom-capitalize">

@@ -1,6 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function PUGraph() {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/path-unicorn2");
+  };
   return (
     <>
       <svg
@@ -13,7 +18,7 @@ export default function PUGraph() {
         viewBox="0 0 1290.8 595.3"
         style={{ enableBackground: "new 0 0 1290.8 595.3" }}
         xmlSpace="preserve"
-      >
+        onClick={handleClick}>
         <style
           type="text/css"
           dangerouslySetInnerHTML={{
@@ -506,8 +511,7 @@ export default function PUGraph() {
             y1="436.0756"
             x2="278.7772"
             y2="436.0756"
-            gradientTransform="matrix(1 0 0 -1 0 595.2756)"
-          >
+            gradientTransform="matrix(1 0 0 -1 0 595.2756)">
             <stop offset={0} style={{ stopColor: "#EAE876" }} />
             <stop offset={1} style={{ stopColor: "#F9F6BB" }} />
           </linearGradient>
@@ -565,8 +569,7 @@ export default function PUGraph() {
               y1="309.4756"
               x2="157.3"
               y2="309.4756"
-              gradientTransform="matrix(1 0 0 -1 0 595.2756)"
-            >
+              gradientTransform="matrix(1 0 0 -1 0 595.2756)">
               <stop offset={0} style={{ stopColor: "#FFFFFF" }} />
               <stop offset={1} style={{ stopColor: "#E4E4E4" }} />
             </linearGradient>
@@ -585,8 +588,7 @@ export default function PUGraph() {
               y1="309.4756"
               x2="159.3"
               y2="309.4756"
-              gradientTransform="matrix(1 0 0 -1 0 595.2756)"
-            >
+              gradientTransform="matrix(1 0 0 -1 0 595.2756)">
               <stop offset={0} style={{ stopColor: "#E4E4E4" }} />
               <stop offset={1} style={{ stopColor: "#FFFFFF" }} />
             </linearGradient>
@@ -613,8 +615,7 @@ export default function PUGraph() {
               y1="309.5756"
               x2={1225}
               y2="309.5756"
-              gradientTransform="matrix(1 0 0 -1 0 595.2756)"
-            >
+              gradientTransform="matrix(1 0 0 -1 0 595.2756)">
               <stop offset={0} style={{ stopColor: "#FFFFFF" }} />
               <stop offset={1} style={{ stopColor: "#E4E4E4" }} />
             </linearGradient>
@@ -633,8 +634,7 @@ export default function PUGraph() {
               y1="309.5756"
               x2={1227}
               y2="309.5756"
-              gradientTransform="matrix(1 0 0 -1 0 595.2756)"
-            >
+              gradientTransform="matrix(1 0 0 -1 0 595.2756)">
               <stop offset={0} style={{ stopColor: "#E4E4E4" }} />
               <stop offset={1} style={{ stopColor: "#FFFFFF" }} />
             </linearGradient>
@@ -655,16 +655,14 @@ export default function PUGraph() {
         <rect x="1082.9" y={364} className="st27" width="152.9" height="33.7" />
         <text
           transform="matrix(1 0 0 1 1120.7067 377.9906)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           present
         </text>
         <g className="st1">
           <rect x="209.4" y={111} className="st31" width="95.6" height="33.2" />
           <text
             transform="matrix(1 0 0 1 236.7483 124.9287)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2010
           </text>
           <rect
@@ -676,8 +674,7 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 390.912 179.7229)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2012
           </text>
           <rect
@@ -689,14 +686,12 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 483.8891 99.1707)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             The Big Fork
           </text>
           <text
             transform="matrix(1 0 0 1 547.7891 120.7707)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2014
           </text>
           <rect
@@ -708,14 +703,12 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 644.6787 154.0667)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             Version 6.0
           </text>
           <text
             transform="matrix(1 0 0 1 697.4787 175.6667)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2016
           </text>
           <rect
@@ -727,14 +720,12 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 763.3125 99.6558)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             v10.0 and v11.0
           </text>
           <text
             transform="matrix(1 0 0 1 851.5125 121.2558)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2018
           </text>
           <rect
@@ -746,14 +737,12 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 921.6452 153.8248)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             v14.0 and v15.0
           </text>
           <text
             transform="matrix(1 0 0 1 1009.8452 175.4248)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2020
           </text>
           <rect
@@ -765,14 +754,12 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 1093.515 98.9289)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             Version 18.0
           </text>
           <text
             transform="matrix(1 0 0 1 1156.615 120.5289)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2022
           </text>
           <rect
@@ -784,14 +771,12 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 1079.4626 406.4154)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2021
           </text>
           <text
             transform="matrix(1 0 0 1 1016.3627 428.0154)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             Version 16.0
           </text>
           <rect
@@ -803,14 +788,12 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 930.0772 453.3566)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2019
           </text>
           <text
             transform="matrix(1 0 0 1 841.8772 474.9566)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             v12.0 and v13.0
           </text>
           <rect
@@ -822,14 +805,12 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 776.1421 399.1305)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2017
           </text>
           <text
             transform="matrix(1 0 0 1 723.3421 420.7305)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             Version 8.0
           </text>
           <rect
@@ -841,14 +822,12 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 622.1296 453.3566)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2015
           </text>
           <text
             transform="matrix(1 0 0 1 569.3296 474.9566)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             Version 4.0
           </text>
           <rect
@@ -860,8 +839,7 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 467.9085 399.13)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2013
           </text>
           <rect
@@ -873,27 +851,23 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 315.9743 455.0857)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2011
           </text>
           <text
             transform="matrix(1 0 0 1 263.1743 476.6857)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             Version 1.0
           </text>
           <rect x="72.2" y="386.9" className="st31" width={131} height={51} />
           <text
             transform="matrix(1 0 0 1 162.2597 400.8596)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             2009
           </text>
           <text
             transform="matrix(1 0 0 1 79.2597 422.4596)"
-            className="st32 st29 st30"
-          >
+            className="st32 st29 st30">
             Node.js is born
           </text>
           <rect
@@ -905,14 +879,12 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 333.7426 115.458)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             Adoption continues{" "}
           </text>
           <text
             transform="matrix(1 0 0 1 373.9426 128.658)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             very rapidly
           </text>
           <rect
@@ -924,14 +896,12 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 208.1888 60.3625)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             Espress is born{" "}
           </text>
           <text
             transform="matrix(1 0 0 1 199.7888 73.5625)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             Socket.io is born
           </text>
           <rect
@@ -943,64 +913,54 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 486.4684 36.3997)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             IO.js a major fork of{" "}
           </text>
           <text
             transform="matrix(1 0 0 1 462.4684 49.5997)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             Node.js, with the goal of
           </text>
           <text
             transform="matrix(1 0 0 1 464.1684 62.7997)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             introducing ES6 support{" "}
           </text>
           <text
             transform="matrix(1 0 0 1 494.8684 75.9997)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             and moving faster{" "}
           </text>
           <rect x="611.6" y="80.9" className="st31" width="127.1" height={52} />
           <text
             transform="matrix(1 0 0 1 635.4081 89.444)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             The leftpad incident{" "}
           </text>
           <text
             transform="matrix(1 0 0 1 656.8081 102.644)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             NPM introduces
           </text>
           <text
             transform="matrix(1 0 0 1 647.8081 115.844)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             package-lock.json
           </text>
           <text
             transform="matrix(1 0 0 1 674.9081 129.044)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             Yarn is born.
           </text>
           <rect x="767.5" y={52} className="st31" width="127.1" height="32.9" />
           <text
             transform="matrix(1 0 0 1 815.8528 60.5028)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             ES modules mjs
           </text>
           <text
             transform="matrix(1 0 0 1 780.5528 73.7028)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             experimental support.
           </text>
           <rect
@@ -1012,8 +972,7 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 1144.3197 72.9958)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             Active LTS
           </text>
           <rect
@@ -1025,14 +984,12 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 94.6845 446.189)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             The first form of npm
           </text>
           <text
             transform="matrix(1 0 0 1 154.0845 459.389)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             is created
           </text>
           <rect
@@ -1044,26 +1001,22 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 237.9938 501.2478)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             Larger companies start{" "}
           </text>
           <text
             transform="matrix(1 0 0 1 268.2938 514.4478)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             adopting Node.js
           </text>
           <text
             transform="matrix(1 0 0 1 259.6938 527.6478)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             Linkedin Uber, ect.
           </text>
           <text
             transform="matrix(1 0 0 1 294.8938 540.8478)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             Hapi is born
           </text>
           <rect
@@ -1075,20 +1028,17 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 390.3021 446.2859)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             First blogging platform{" "}
           </text>
           <text
             transform="matrix(1 0 0 1 407.9021 459.4859)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             using Node.js Ghost
           </text>
           <text
             transform="matrix(1 0 0 1 452.2021 472.6859)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             Koa is born
           </text>
           <rect
@@ -1100,38 +1050,32 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 600.1357 501.5233)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             The NOde.js
           </text>
           <text
             transform="matrix(1 0 0 1 568.2357 514.7233)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             foundation is born
           </text>
           <text
             transform="matrix(1 0 0 1 560.5357 527.9233)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             IO.js is merged back
           </text>
           <text
             transform="matrix(1 0 0 1 600.5357 541.1233)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             into Node.js
           </text>
           <text
             transform="matrix(1 0 0 1 580.4357 554.3233)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             NPM introduces
           </text>
           <text
             transform="matrix(1 0 0 1 579.5357 567.5233)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             private modules
           </text>
           <rect
@@ -1143,83 +1087,70 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 704.5768 446.2854)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             NPM focuses more on{" "}
           </text>
           <text
             transform="matrix(1 0 0 1 775.0768 459.4854)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             security
           </text>
           <text
             transform="matrix(1 0 0 1 777.3768 472.6854)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             HTTP/2
           </text>
           <text
             transform="matrix(1 0 0 1 703.7768 485.8854)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             V8 introduces Node.js
           </text>
           <text
             transform="matrix(1 0 0 1 721.1768 499.0854)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             in its testing suite,
           </text>
           <text
             transform="matrix(1 0 0 1 689.8768 512.2854)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             officially making Node.js
           </text>
           <text
             transform="matrix(1 0 0 1 723.0768 525.4854)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             a target for the JS
           </text>
           <text
             transform="matrix(1 0 0 1 706.6768 538.6854)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             enging, in addition to
           </text>
           <text
             transform="matrix(1 0 0 1 775.4768 551.8854)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             Chrome{" "}
           </text>
           <text
             transform="matrix(1 0 0 1 749.9768 565.0854)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             3billion NPM
           </text>
           <text
             transform="matrix(1 0 0 1 699.4768 578.2854)"
-            className="st8 st29 st33"
-          >
+            className="st8 st29 st33">
             downloads every week{" "}
           </text>
         </g>
         <rect x="2.7" y="363.8" className="st27" width={178} height="34.9" />
         <text
           transform="matrix(1 0 0 1 41.3224 372.7)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           Milestones
         </text>
         <rect x="955.6" y="145.2" className="st27" width={148} height={28} />
         <text
           transform="matrix(1 0 0 1 964.822 159.1654)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           Unicorn Leap
         </text>
         <rect
@@ -1231,15 +1162,13 @@ export default function PUGraph() {
         />
         <text
           transform="matrix(1 0 0 1 903.1725 484.1142)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           Pre-Flight
         </text>
         <rect x="822.9" y="87.1" className="st27" width="106.6" height="23.8" />
         <text
           transform="matrix(1 0 0 1 842.4143 101.0355)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           Legacy
         </text>
         <rect
@@ -1251,8 +1180,7 @@ export default function PUGraph() {
         />
         <text
           transform="matrix(1 0 0 1 750.2644 431.7086)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           Elevation
         </text>
         <rect
@@ -1264,29 +1192,25 @@ export default function PUGraph() {
         />
         <text
           transform="matrix(1 0 0 1 671.9565 160.2402)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           Expansion
         </text>
         <rect x="604.4" y="469.3" className="st27" width="80.2" height="32.6" />
         <text
           transform="matrix(1 0 0 1 621.5222 483.2279)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           Apex
         </text>
         <rect x={503} y={92} className="st27" width="134.1" height="26.6" />
         <text
           transform="matrix(1 0 0 1 515.6969 105.9987)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           Momentum
         </text>
         <rect x="437.4" y="411.1" className="st27" width={112} height="24.5" />
         <text
           transform="matrix(1 0 0 1 450.9518 425.069)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           Velocity
         </text>
         <rect
@@ -1298,8 +1222,7 @@ export default function PUGraph() {
         />
         <text
           transform="matrix(1 0 0 1 371.5228 166.3141)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           Traction
         </text>
         <rect
@@ -1311,15 +1234,13 @@ export default function PUGraph() {
         />
         <text
           transform="matrix(1 0 0 1 299.6236 477.3345)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           Ignition
         </text>
         <rect x="224.2" y={88} className="st27" width="76.7" height="21.9" />
         <text
           transform="matrix(1 0 0 1 234.2755 101.9886)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           Spark
         </text>
         <rect
@@ -1331,16 +1252,14 @@ export default function PUGraph() {
         />
         <text
           transform="matrix(1 0 0 1 140.0102 420.291)"
-          className="st28 st29 st30"
-        >
+          className="st28 st29 st30">
           Keystone
         </text>
         <g className="st1">
           <rect x={954} y="171.7" className="st31" width={148} height={28} />
           <text
             transform="matrix(1 0 0 1 1009.8412 185.6704)"
-            className="st8 st29 st30"
-          >
+            className="st8 st29 st30">
             m12
           </text>
           <rect
@@ -1352,8 +1271,7 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 856.4292 127.5411)"
-            className="st8 st29 st30"
-          >
+            className="st8 st29 st30">
             m10
           </text>
           <rect
@@ -1365,8 +1283,7 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 708.1297 186.7452)"
-            className="st8 st29 st30"
-          >
+            className="st8 st29 st30">
             m8
           </text>
           <rect
@@ -1378,8 +1295,7 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 555.4516 132.5048)"
-            className="st8 st29 st30"
-          >
+            className="st8 st29 st30">
             m6
           </text>
           <rect
@@ -1391,8 +1307,7 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 401.3058 190.8197)"
-            className="st8 st29 st30"
-          >
+            className="st8 st29 st30">
             m4
           </text>
           <rect
@@ -1404,8 +1319,7 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 247.8944 128.4937)"
-            className="st8 st29 st30"
-          >
+            className="st8 st29 st30">
             m2
           </text>
           <rect
@@ -1417,8 +1331,7 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 935.3464 461.9977)"
-            className="st8 st29 st30"
-          >
+            className="st8 st29 st30">
             m11
           </text>
           <rect
@@ -1430,22 +1343,19 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 787.0466 409.5921)"
-            className="st8 st29 st30"
-          >
+            className="st8 st29 st30">
             m9
           </text>
           <rect x={605} y="447.1" className="st31" width="80.2" height="31.7" />
           <text
             transform="matrix(1 0 0 1 632.0607 461.1114)"
-            className="st8 st29 st30"
-          >
+            className="st8 st29 st30">
             m7
           </text>
           <rect x="438.1" y={389} className="st31" width={112} height="24.5" />
           <text
             transform="matrix(1 0 0 1 481.0108 402.9525)"
-            className="st8 st29 st30"
-          >
+            className="st8 st29 st30">
             m5
           </text>
           <rect
@@ -1457,8 +1367,7 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 326.8115 455.218)"
-            className="st8 st29 st30"
-          >
+            className="st8 st29 st30">
             m3
           </text>
           <rect
@@ -1470,8 +1379,7 @@ export default function PUGraph() {
           />
           <text
             transform="matrix(1 0 0 1 173.3994 398.1745)"
-            className="st8 st29 st30"
-          >
+            className="st8 st29 st30">
             m1
           </text>
         </g>
@@ -1483,8 +1391,7 @@ export default function PUGraph() {
             y1="321.7963"
             x2="1199.9"
             y2="321.7963"
-            gradientTransform="matrix(1 0 0 -1 0 595.2756)"
-          >
+            gradientTransform="matrix(1 0 0 -1 0 595.2756)">
             <stop offset={0} style={{ stopColor: "#69B3E5" }} />
             <stop offset={1} style={{ stopColor: "#1363AF" }} />
           </linearGradient>
@@ -1507,8 +1414,7 @@ export default function PUGraph() {
               y1="277.3256"
               x2="1125.8378"
               y2="277.3256"
-              gradientTransform="matrix(1 0 0 -1 0 595.2756)"
-            >
+              gradientTransform="matrix(1 0 0 -1 0 595.2756)">
               <stop offset={0} style={{ stopColor: "#69B3E5" }} />
               <stop offset={1} style={{ stopColor: "#1363AF" }} />
             </linearGradient>
@@ -1527,8 +1433,7 @@ export default function PUGraph() {
               y1="277.5256"
               x2="1140.5344"
               y2="277.5256"
-              gradientTransform="matrix(1 0 0 -1 0 595.2756)"
-            >
+              gradientTransform="matrix(1 0 0 -1 0 595.2756)">
               <stop offset={0} style={{ stopColor: "#69B3E5" }} />
               <stop offset={1} style={{ stopColor: "#1363AF" }} />
             </linearGradient>
@@ -1546,8 +1451,7 @@ export default function PUGraph() {
               y1="277.5256"
               x2="1147.4634"
               y2="277.5256"
-              gradientTransform="matrix(1 0 0 -1 0 595.2756)"
-            >
+              gradientTransform="matrix(1 0 0 -1 0 595.2756)">
               <stop offset={0} style={{ stopColor: "#69B3E5" }} />
               <stop offset={1} style={{ stopColor: "#1363AF" }} />
             </linearGradient>
@@ -1564,8 +1468,7 @@ export default function PUGraph() {
               y1="277.4756"
               x2="1162.1417"
               y2="277.4756"
-              gradientTransform="matrix(1 0 0 -1 0 595.2756)"
-            >
+              gradientTransform="matrix(1 0 0 -1 0 595.2756)">
               <stop offset={0} style={{ stopColor: "#69B3E5" }} />
               <stop offset={1} style={{ stopColor: "#1363AF" }} />
             </linearGradient>
@@ -1585,8 +1488,7 @@ export default function PUGraph() {
               y1="277.4756"
               x2="1176.6378"
               y2="277.4756"
-              gradientTransform="matrix(1 0 0 -1 0 595.2756)"
-            >
+              gradientTransform="matrix(1 0 0 -1 0 595.2756)">
               <stop offset={0} style={{ stopColor: "#69B3E5" }} />
               <stop offset={1} style={{ stopColor: "#1363AF" }} />
             </linearGradient>
@@ -1606,8 +1508,7 @@ export default function PUGraph() {
               y1="277.5256"
               x2="1191.0791"
               y2="277.5256"
-              gradientTransform="matrix(1 0 0 -1 0 595.2756)"
-            >
+              gradientTransform="matrix(1 0 0 -1 0 595.2756)">
               <stop offset={0} style={{ stopColor: "#69B3E5" }} />
               <stop offset={1} style={{ stopColor: "#1363AF" }} />
             </linearGradient>
@@ -1626,8 +1527,7 @@ export default function PUGraph() {
               y1="277.5256"
               x2="1205.2653"
               y2="277.5256"
-              gradientTransform="matrix(1 0 0 -1 0 595.2756)"
-            >
+              gradientTransform="matrix(1 0 0 -1 0 595.2756)">
               <stop offset={0} style={{ stopColor: "#69B3E5" }} />
               <stop offset={1} style={{ stopColor: "#1363AF" }} />
             </linearGradient>
